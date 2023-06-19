@@ -1,0 +1,126 @@
+.dashboard {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a);
+    position: relative;
+}
+
+.logout-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upload-btn {
+    color: #fff;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar {
+    margin-top: 4rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px 0 0 50px;
+    padding-left: 20px;
+    border: transparent;
+}
+
+.dashboard input:focus {
+    outline: transparent;
+    border: transparent;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border-radius: 0 50px 50px 0;
+    border: transparent;
+    margin-left: 0;
+    background-color: #3e1b5e;
+    color: #fff;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.image-container img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.image-container p {
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    background-color: #3e1b5e;
+    display: block;
+    margin: auto;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.image-card {
+    position: relative;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: transparent;
+    margin-left: 0;
+    background-color: #3e1b5e;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+
+.icon {
+    font-size: 30px !important;
+}
+
+@media screen and (max-width:768px) {
+    .search-bar {
+        width: 95%;
+    }
+
+    .image-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

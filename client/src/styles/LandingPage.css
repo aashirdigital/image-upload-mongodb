@@ -1,0 +1,27 @@
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a);
+}
+
+form {
+    width: 500px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #42275a;
+    color: #fff;
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    border-radius: 4px;
+    outline: transparent;
+    border: transparent;
+}
